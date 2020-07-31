@@ -1,0 +1,112 @@
+html *{
+	margin:25px;
+	padding:1px;
+}
+
+body {
+	background-color:#130106f2;
+	color: #FFFFFF;
+}
+
+h1{
+	font-size:70px;
+	color:#56031a;
+}
+
+h2{
+	font-size:50px;
+	
+}
+header{
+	text-align: center;
+	font-size: 33px;
+	margin-bottom: 20px;	
+
+}
+
+
+main{
+	height: 50em;
+	flex:5;
+	display:flex;
+	flex-direction: column;
+
+}
+
+section{
+	
+	flex:2;
+	display:flex;
+	flex-direction: column;
+	
+
+  align-items: center;
+	
+
+}
+
+#TEMP{
+	flex:1;
+	background-image: url("https://www.hispanatolia.com/upload/filemanager/image/ESPANOL/sociedad/2019/clima-calor-temperatura-termometro.jpg");
+	background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#HUM{
+	flex:1;
+	background-image: url("https://www.eliminarhumedades.com/wp-content/uploads/2017/05/absorbentes-humedad.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#GAS{
+	flex:1;
+	background-image: url("https://tbsnews.net/sites/default/files/styles/big_3/public/images/2019/11/25/gas.jpeg?itok=4qeAudAG&timestamp=1574657823");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#LIGHT{
+	flex:1;
+	background-image: url("https://fotos.perfil.com/2019/01/30/840/0/en-febrero-habra-el-primer-aumento-en-la-tarifa-de-luz-del-2019-612987.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#LED{
+	flex:1;
+	background-image: url("http://www.apcetech.com/BLOG/wp-content/uploads/2017/07/LED-lighta-1.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myButton {
+	box-shadow:inset 0px 17px 36px -19px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	padding:19px 61px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+	width: 	40%;
+	align-self: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
